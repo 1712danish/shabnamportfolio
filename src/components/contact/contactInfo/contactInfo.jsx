@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import { Row, Col } from "react-flexbox-grid";
 import "./contactInfo.scss";
 
@@ -16,26 +16,29 @@ const contactInfo = () => (
     <Col xs={12}>
       <Row center="xs">
         <Col xs={12} lg={3} className="contact__info">
-          
+
           <ContactInfoBox
             icon={ContactInfoIcon1}
             textLine1="Rajiv Nagar
             Telibagh, Lucknow, Uttar Pradesh 226002"
           />
-          
+
         </Col>
         <Col xs={12} lg={3} className="contact__info">
-          <ContactInfoBox
-            icon={ContactInfoIcon2}
-            textLine1="+91 84470 72786"
-            
-          />
+          <a href="tel:+91-84470-72786" target="_blank">
+            <ContactInfoBox
+
+              icon={ContactInfoIcon2}
+              textLine1="+91-84470-72786"
+
+            />
+          </a>
         </Col>
         <Col xs={12} lg={3} className="contact__info">
           <ContactInfoBox
             icon={ContactInfoIcon3}
             textLine1="adv.shabnam01@gmail.com"
-            
+
           />
         </Col>
       </Row>

@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import { Row, Col } from "react-flexbox-grid";
 import "./contactSocial.scss";
 
@@ -13,7 +14,9 @@ const contactSocial = () => (
     <Col xs={12}>
       <Row center="xs">
         <Col xs={12} lg={1} className="contact__social">
+          <a href="https://www.linkedin.com/in/shabnam-bano-0a209a193" target="_blank">
           <img src={Linkedin} alt="facebook" />
+          </a>
         </Col>
         {/* <Col xs={12} lg={1} className="contact__social">
           <img src={TwitterIcons} alt="Twitter" />

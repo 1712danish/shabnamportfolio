@@ -13,6 +13,8 @@ import Preview5 from "../../assets/portfolio/project05/preview.png";
 import Preview6 from "../../assets/portfolio/project06/preview.png";
 import Preview7 from "../../assets/portfolio/project07/preview.png";
 import Preview8 from "../../assets/portfolio/project08/preview.png";
+import Preview9 from "../../assets/portfolio/project09/preview.png";
+
 
 
 //Components
@@ -64,6 +66,11 @@ class Portfolio extends React.Component {
         {
           id: "8",
           preview: Preview8,
+          
+        },
+        {
+          id: "9",
+          preview: Preview9,
           
         }
       ],

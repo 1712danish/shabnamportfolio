@@ -21,7 +21,7 @@ const about = () => (
       </p>
       <Row>
         <Col md={12} lg={4}>
-          <TeamBox avatar={Person01} name="Shabnam Bano" job="Advocate" />
+          <TeamBox avatar={Person01} name="Shabnam Bano" job="Advocate" court="High Court, Lucknow"  />
         </Col>
         {/* <Col md={12} lg={4}>
           <TeamBox avatar={Person02} name="Han Solo" job="Graphic Designer" />

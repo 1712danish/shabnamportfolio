@@ -12,7 +12,7 @@ const about = () => (
         <div>
 
           <ReadMoreReact text="Advocate Shabnam Bano has been practicing and handling cases independently with a result oriented approach, both professionally and ethically and has now acquired over 6 years of 
-          professional experience in providing legal consultancy and advisory services. Advocate Shabnam Bano's office is in lucknow Cantt, Telibagh and Gomti Nagar, Lucknow."
+          professional experience in providing legal consultancy and advisory services. "
             min={50}
             embedCSS="false"
             readMoreText="read more..." />
